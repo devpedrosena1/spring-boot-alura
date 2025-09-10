@@ -14,6 +14,5 @@ public class ConverteDados implements IConverteDados{
         } catch(JsonProcessingException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
